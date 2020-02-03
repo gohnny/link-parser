@@ -1,0 +1,17 @@
+{
+    "name": "duantianyu/snoopy",
+    "type": "library",
+    "description": "A PHP class that simulates a web browser",
+    "keywords": ["snoopy","logging"],
+    "version": "2.0.0",
+    "require": {
+        "php": ">=5.3",
+        "lib-openssl": "*",
+        "symfony/dom-crawler": "^5.0",
+        "symfony/css-selector": "^5.0",
+        "clue/buzz-react": "^2.6"
+    },
+    "autoload": {
+        "classmap": ["src/Snoopy.php"]
+    }
+}
